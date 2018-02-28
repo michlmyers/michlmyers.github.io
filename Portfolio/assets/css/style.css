@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/sos.png);
+    line-height: 1.5;
+}
+
+ul{
+    background-color: #ffffff;
+    margin-left: -140px;
+    margin-right: -140px;
+}
+
+.main_head {
+    display: inline-block;
+    position: relative;
+    color:#ffffff;
+    background-color: #4aaaa5;
+    width: 40%;
+    text-align: center;
+    padding: 18px;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav {
+    float: right;
+    padding-left: 20px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    color: #777777;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    border-width: 5px;
+    border-right: 1px solid #777777;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 630px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+aside {
+    float: right;
+    background-color: #ffffff;
+    width: 270px;
+    padding-bottom: 5px; 
+    padding-left: 18px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.imgNorm {
+    height: 200px;
+    width: 200px;
+}
+
+.para {
+    z-index:100;
+    position: absolute;    
+    color: #ffffff;
+    padding: 10px;
+    margin: 12px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: #4aaaa5;
+}
+
+#hang {
+    left: 146px;
+    top: 390px;
+    width: 150px;
+}
+
+#rpg {
+    left: 350px;
+    top: 390px;
+}
+
+#triv { 
+    left: 146px;
+    top: 595px;
+}
+
+#info {
+    left: 350px;
+    top: 595px;
+}
+
+#rock {
+    left: 146px;
+    top: 800px;
+}
+
+#imgMe {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding-right: 20px;
+}
+
+.icon {
+    height: 68px;
+    width: 70px;
+}
+
+.msg {
+    height: 200px;
+    width: 590px;
+}
+
+.entry {
+    height: 20px;
+    width: 590px;
+    padding: 2%;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 15px; 
+    padding: 8px;
+    width: 17%;
+}
+
+.footer{
+    clear: both;
+    background-color: #666666;
+    font-size: 11px;
+    color: #ffffff;
+    padding: 15px;
+    margin-left: -140px;
+    margin-right: -140px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
