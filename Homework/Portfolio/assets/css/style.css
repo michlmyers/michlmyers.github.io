@@ -80,47 +80,129 @@ aside {
     margin-top: 10px;
 }
 
-.imgNorm {
+.container1 {
+    height: 225px;
+    width: 275px;
+    position: relative;
+    float: left;
+}
+
+.imgHang {
+    position: absolute;
     height: 200px;
     width: 200px;
 }
 
-.para {
-    z-index:100;
-    position: absolute;    
-    color: #ffffff;
-    padding: 10px;
-    margin: 12px;
-    text-align: center;
+.hang {
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    padding: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
     background-color: #4aaaa5;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
 }
 
-#hang {
-    left: 146px;
-    top: 390px;
-    width: 150px;
+.container2 {
+    height: 225px;
+    width: 275px;
+    position: relative;
+    float: left;
 }
 
-#rpg {
-    left: 350px;
-    top: 390px;
+.imgRpg {
+    position: absolute;
+    height: 200px;
+    width: 200px;
 }
 
-#triv { 
-    left: 146px;
-    top: 595px;
+.rpg {
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
 }
 
-#info {
-    left: 350px;
-    top: 595px;
+.container3 {
+    height: 225px;
+    width: 275px;
+    position: relative;
+    float: left;
 }
 
-#rock {
-    left: 146px;
-    top: 800px;
+.imgTrivia {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+.trivia {
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container4 {
+    height: 225px;
+    width: 275px;
+    position: relative;
+    float: left;
+}
+
+.imgWidget {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+.widget {
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container5 {
+    height: 225px;
+    width: 275px;
+    position: relative;
+    float: left;
+}
+
+.imgRock {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+.rock {
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
 }
 
 #imgMe {
@@ -160,8 +242,6 @@ aside {
     font-size: 11px;
     color: #ffffff;
     padding: 15px;
-    margin-left: -140px;
-    margin-right: -140px;
     text-align: center;
     border-top: 8px solid #4aaaa5;
 }
