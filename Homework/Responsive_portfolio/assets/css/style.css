@@ -97,6 +97,7 @@ aside {
     position: absolute;
     height: 200px;
     width: 200px;
+    z-index: 5;
 }
 
 .imgHang:hover  {
@@ -117,6 +118,7 @@ aside {
     font-size: 18px;
     text-align: center;
     color: #ffffff;
+    z-index: 10;
 }
 
 .container2 {
@@ -292,12 +294,20 @@ aside {
     border-top: 8px solid #4aaaa5;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+  }
+
 @media  screen  and  (max-width:980px) {
     .container {
         width:100%;
     }
     .list {
         width: 100%;
+        min-width: 535px;
     }
     .about {
         width: 60%;
@@ -316,6 +326,7 @@ aside {
     }
     .list {
         width: 100%;
+        min-width: 535px;
     }
     .about {
         width: 100%;
@@ -335,6 +346,7 @@ aside {
     }
     .list {
         width: 100%;
+        min-width: 535px;
     }
     .about {
         width: 100%;

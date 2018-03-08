@@ -11,7 +11,7 @@
 
 <body>
     <section class="container">
-        <div class="list">
+        <div class="list" id="myList">
             <ul>
                 <div class=myName>
                     <h1 class="main_head">Michael Myers</h1>
@@ -68,6 +68,21 @@
             <p> &copy; Copyright Michael Myers</p>
         </section>
     </section>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myList");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>
